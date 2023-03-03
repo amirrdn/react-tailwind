@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.absolute-nav{
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  transform: translate(1317px, 54px);
+}
+main{
+  display: block;
+}
+.content-body{
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.table-detail tr td:nth-child(2){
+  width: 1px;
+  padding: 0;
+}
+.table-detail tr td:nth-child(3){
+  padding-left: 4px;
+}
